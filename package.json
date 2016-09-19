@@ -1,0 +1,12 @@
+{
+  "name": "node-openam-agent-cache",
+  "description": "Abstract cache for the OpenAM Policy Agent for NodeJS",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Zoltan Tarcsay <tarcsay.zoltan@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zoltantarcsay/node-openam-agent-cache.git"
+  },  "license": "MIT"
+}
