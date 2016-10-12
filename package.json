@@ -10,6 +10,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "promise": "^7.1.1"
+    "bluebird": "^3.4.6"
   }
 }
