@@ -4,11 +4,11 @@ Abstract cache for the OpenAM Policy Agent for NodeJS
 Implement this class to use your own cache with any backed with the
 [node-openam-policy-agent](https://github.com/zoltantarcsay/node-openam-agent)
 
-## API docs
+# API Docs
 
 <a name="Cache"></a>
 
-### *Cache*
+## *Cache*
 **Kind**: global abstract class  
 
 * *[Cache](#Cache)*
@@ -16,15 +16,16 @@ Implement this class to use your own cache with any backed with the
     * *[.get(key)](#Cache+get) ⇒ <code>Promise</code>*
     * *[.put(key, value)](#Cache+put) ⇒ <code>Promise</code>*
     * *[.remove(key)](#Cache+remove) ⇒ <code>Promise</code>*
+    * *[.quit()](#Cache+quit) ⇒ <code>Promise</code>*
 
 <a name="new_Cache_new"></a>
 
-#### *new Cache()*
+### *new Cache()*
 Abstract Cache class
 
 <a name="Cache+get"></a>
 
-#### *cache.get(key) ⇒ <code>Promise</code>*
+### *cache.get(key) ⇒ <code>Promise</code>*
 Get a single cached item
 If the entry is not found, reject
 
@@ -36,7 +37,7 @@ If the entry is not found, reject
 
 <a name="Cache+put"></a>
 
-#### *cache.put(key, value) ⇒ <code>Promise</code>*
+### *cache.put(key, value) ⇒ <code>Promise</code>*
 Store a single cached item (overwrites existing)
 
 **Kind**: instance method of <code>[Cache](#Cache)</code>  
@@ -48,7 +49,7 @@ Store a single cached item (overwrites existing)
 
 <a name="Cache+remove"></a>
 
-#### *cache.remove(key) ⇒ <code>Promise</code>*
+### *cache.remove(key) ⇒ <code>Promise</code>*
 Remove a single cached item
 
 **Kind**: instance method of <code>[Cache](#Cache)</code>  
@@ -57,4 +58,9 @@ Remove a single cached item
 | --- | --- |
 | key | <code>string</code> | 
 
+<a name="Cache+quit"></a>
 
+### *cache.quit() ⇒ <code>Promise</code>*
+Closes the client connection
+
+**Kind**: instance method of <code>[Cache](#Cache)</code>  
