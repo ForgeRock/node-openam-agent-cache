@@ -1,12 +1,12 @@
 {
-  "name": "openam-agent-cache",
+  "name": "@forgerock/openam-agent-cache",
   "description": "Abstract cache for the OpenAM Policy Agent for NodeJS",
   "version": "1.1.0",
   "main": "index.js",
-  "author": "Zoltan Tarcsay <tarcsay.zoltan@gmail.com>",
+  "author": "Zoltan Tarcsay <zoltan.tarcsay@forgerock.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zoltantarcsay/node-openam-agent-cache.git"
+    "url": "https://github.com/ForgeRock/node-openam-agent-cache.git"
   },
   "license": "MIT",
   "dependencies": {
