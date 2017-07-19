@@ -1,7 +1,7 @@
 {
   "name": "@forgerock/openam-agent-cache",
   "description": "Abstract cache for the OpenAM Policy Agent for NodeJS",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "main": "index.js",
   "author": "Zoltan Tarcsay <zoltan.tarcsay@forgerock.com>",
   "repository": {
